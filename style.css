@@ -1,0 +1,310 @@
+.food-card{
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    padding: 16px;
+    width: 520px;
+    display: block;
+    margin: 32px auto;
+}
+
+.food-banner-container{
+    position: relative;
+}
+
+.discount{
+    margin: 0;
+    position: absolute;
+    bottom: 12px;
+    background-color: #266fef;
+    padding: 2px 12px;
+}
+
+.discount h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+}
+
+.promoted{
+    margin: 0;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #000000a1;
+    padding: 2px 12px;
+    border-radius: 4px;
+}
+
+.promoted h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(148, 148, 148);
+    margin: 0px;
+}
+
+.time-to-arrive{
+    margin: 0;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background-color: #f8f9f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.time-to-arrive h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #353636;
+    margin: 0px;
+}
+
+.food-image{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+.restaurant-name{
+    color: #1d1d1d;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.restaurant-class{
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+.seperator{
+    height: 2px;
+    display: block;
+    background-color: #e8e8e8;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.safety-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.safety-logo{
+    width: 80px;
+    margin-right: 20px;
+}
+
+.safety-caption{
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 10;
+    display: inline;
+    margin: 0px;
+}
+
+.tour-banner-container{
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.tour-banner{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+.tour-banner-overlay{
+    position: absolute;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tour-title{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.tour-subtitle{
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.explore-button{
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: #222222;
+    border: none;
+    margin-top: 20px;
+}
+
+.zomato-container{
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 32px;
+}
+
+.zomato-banner{
+    width: 100%;
+    display: block;
+}
+
+.zomato-logo{
+    width: 320px;
+}
+
+.zomato-banner-black-overlay{
+    background-color: #0000007b;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.zomato-banner-overlay{
+    position: absolute;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.zomato-subtitle{
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.search-card{
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    padding: 10px 16px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px auto;
+}
+
+.search-logo{
+    width: 16px;
+}
+
+.dropdown{
+    width: 10px;
+}
+
+.search-text{
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    margin-right: 64px;
+}
+
+.horizontal-seperator{
+    width: 1px;
+    height: 24px;
+    background-color: #6a6a6a;
+    margin: 0px 12px;
+}
+
+
+.profile-card{
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+    width: 320px;
+    display: block;
+    margin: 32px auto;
+}
+
+.header{
+    position: relative;
+}
+
+.header-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profile-image{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.profile-info{
+    text-align: center;
+}
+
+.profile-name{
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 62px;
+}
+
+.profile-about{
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
